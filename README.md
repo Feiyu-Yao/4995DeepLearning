@@ -65,5 +65,5 @@ python train.py --img 640 --batch 16 --epochs 50 --data dataset.yaml --weights y
 
 5: After train, gives you weights of train and you should use them for test.
 ```
-python detect.py --weights runs/train/exp12/weights/best.pt --source test_images/imtest13.JPG
+python detect.py --weights runs/train/exp12/weights/best.pt --source test_images/
 ```
