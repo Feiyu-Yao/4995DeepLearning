@@ -62,7 +62,7 @@ names: [ 'Vehicle']  # class names
 ```
 python train.py --img 640 --batch 16 --epochs 50 --data dataset.yaml --weights yolov5m.pt
 ```
-
+ 
 5: After train, gives you weights of train and you should use them for test.
 ```
 python detect.py --weights runs/train/exp1/weights/best.pt --source test_images/
