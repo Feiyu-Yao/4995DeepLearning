@@ -1,0 +1,33 @@
+{
+    "os": "Linux-4.19.0-19-cloud-amd64-x86_64-with-debian-10.11",
+    "python": "3.7.12",
+    "heartbeatAt": "2022-03-17T13:02:56.181024",
+    "startedAt": "2022-03-17T13:02:53.509850",
+    "docker": null,
+    "cpu_count": 2,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch",
+        "16",
+        "--epochs",
+        "50",
+        "--data",
+        "dataset.yaml",
+        "--weights",
+        "yolov5m.pt"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/MaryamBoneh/Vehicle-Detection",
+        "commit": "b03a4aee985b9a8142cb0bfb4f1bd63b53e28760"
+    },
+    "email": null,
+    "root": "/home/fy2263/Vehicle-Detection",
+    "host": "deeplearning-3-vm",
+    "username": "fy2263",
+    "executable": "/opt/conda/bin/python"
+}

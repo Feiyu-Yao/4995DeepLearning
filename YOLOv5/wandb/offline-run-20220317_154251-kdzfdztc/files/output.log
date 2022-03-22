@@ -1,0 +1,230 @@
+Overriding model.yaml nc=80 with nc=1
+                 from  n    params  module                                  arguments
+  0                -1  1      5280  models.common.Conv                      [3, 48, 6, 2, 2]
+  1                -1  1     41664  models.common.Conv                      [48, 96, 3, 2]
+  2                -1  2     65280  models.common.C3                        [96, 96, 2]
+  3                -1  1    166272  models.common.Conv                      [96, 192, 3, 2]
+  4                -1  4    444672  models.common.C3                        [192, 192, 4]
+  5                -1  1    664320  models.common.Conv                      [192, 384, 3, 2]
+  6                -1  6   2512896  models.common.C3                        [384, 384, 6]
+  7                -1  1   2655744  models.common.Conv                      [384, 768, 3, 2]
+  8                -1  2   4134912  models.common.C3                        [768, 768, 2]
+  9                -1  1   1476864  models.common.SPPF                      [768, 768, 5]
+ 10                -1  1    295680  models.common.Conv                      [768, 384, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  2   1182720  models.common.C3                        [768, 384, 2, False]
+ 14                -1  1     74112  models.common.Conv                      [384, 192, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  2    296448  models.common.C3                        [384, 192, 2, False]
+ 18                -1  1    332160  models.common.Conv                      [192, 192, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  2   1035264  models.common.C3                        [384, 384, 2, False]
+ 21                -1  1   1327872  models.common.Conv                      [384, 384, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  2   4134912  models.common.C3                        [768, 768, 2, False]
+ 24      [17, 20, 23]  1     24246  models.yolo.Detect                      [1, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [192, 384, 768]]
+/opt/conda/lib/python3.7/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2228.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Model Summary: 369 layers, 20871318 parameters, 20871318 gradients, 48.0 GFLOPs
+Transferred 475/482 items from yolov5m.pt
+Scaled weight_decay = 0.0005
+[34m[1moptimizer:[39m[22m SGD with parameter groups 79 weight, 82 weight (no decay), 82 bias
+[34m[1mtrain: [39m[22mScanning 'Dataset/dataset-vehicles/labels/train' images and labels...208 found, 0 missing, 0 empty, 187
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/193.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/195.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/196.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/197.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/198.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/199.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/200.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/201.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/202.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/203.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/204.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/206.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/209.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/210.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/211.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/212.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/213.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/214.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/215.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/216.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/217.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/218.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/219.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/220.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/221.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/194.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/222.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/228.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/227.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/229.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/230.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/231.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/232.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/238.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/239.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/241.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/242.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/243.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/244.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/245.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/246.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/247.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/248.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/249.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/250.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/251.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/252.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/253.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/254.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/255.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/256.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/257.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/259.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/260.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/261.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/262.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/263.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/264.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/265.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/266.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/267.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/268.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/269.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/270.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/271.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/272.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/273.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/274.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/275.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/276.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/277.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/279.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/280.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/281.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/282.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/283.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/284.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/285.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/286.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/287.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/288.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/289.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/290.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/291.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/292.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/293.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/294.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/295.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/296.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/297.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/278.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/299.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/300.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/301.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/302.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/303.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/304.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/305.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/306.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/307.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/308.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/309.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/310.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/311.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/312.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/314.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/315.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/316.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/317.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/298.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/319.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/320.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/321.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/322.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/323.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/325.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/326.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/327.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/328.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/329.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/330.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/331.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/332.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/333.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/334.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/335.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/336.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/337.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/318.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/339.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/340.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/341.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/342.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/343.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/344.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/346.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/347.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/348.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/349.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/350.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/351.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/352.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/353.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/354.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/355.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/356.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/338.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/358.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/359.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/360.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/362.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/363.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/364.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/365.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/366.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/367.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/368.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/369.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/370.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/371.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/372.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/373.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/374.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/375.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/357.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/377.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/378.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/379.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/380.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/381.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/382.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/383.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/384.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/385.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/386.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/387.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/388.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/389.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/391.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/392.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/393.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/394.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/395.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/396.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/399.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/400.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/376.jpg: non-normalized or out of bounds coordinate labels
+[34m[1mtrain: [39m[22mNew cache created: Dataset/dataset-vehicles/labels/train.cache
+Traceback (most recent call last):
+  File "train.py", line 611, in <module>
+    main(opt)
+  File "train.py", line 509, in main
+    train(opt.hyp, opt, device)
+  File "train.py", line 212, in train
+    assert mlc < nc, f'Label class {mlc} exceeds nc={nc} in {data}. Possible class labels are 0-{nc - 1}'
+AssertionError: Label class 1 exceeds nc=1 in dataset.yaml. Possible class labels are 0-0

@@ -1,0 +1,61 @@
+Plotting labels...
+[34m[1mautoanchor: [39m[22mAnalyzing anchors... anchors/target = 5.53, Best Possible Recall (BPR) = 1.0000
+Overriding model.yaml nc=80 with nc=1
+                 from  n    params  module                                  arguments
+  0                -1  1      5280  models.common.Conv                      [3, 48, 6, 2, 2]
+  1                -1  1     41664  models.common.Conv                      [48, 96, 3, 2]
+  2                -1  2     65280  models.common.C3                        [96, 96, 2]
+  3                -1  1    166272  models.common.Conv                      [96, 192, 3, 2]
+  4                -1  4    444672  models.common.C3                        [192, 192, 4]
+  5                -1  1    664320  models.common.Conv                      [192, 384, 3, 2]
+  6                -1  6   2512896  models.common.C3                        [384, 384, 6]
+  7                -1  1   2655744  models.common.Conv                      [384, 768, 3, 2]
+  8                -1  2   4134912  models.common.C3                        [768, 768, 2]
+  9                -1  1   1476864  models.common.SPPF                      [768, 768, 5]
+ 10                -1  1    295680  models.common.Conv                      [768, 384, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  2   1182720  models.common.C3                        [768, 384, 2, False]
+ 14                -1  1     74112  models.common.Conv                      [384, 192, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  2    296448  models.common.C3                        [384, 192, 2, False]
+ 18                -1  1    332160  models.common.Conv                      [192, 192, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  2   1035264  models.common.C3                        [384, 384, 2, False]
+ 21                -1  1   1327872  models.common.Conv                      [384, 384, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  2   4134912  models.common.C3                        [768, 768, 2, False]
+ 24      [17, 20, 23]  1     24246  models.yolo.Detect                      [1, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [192, 384, 768]]
+/opt/conda/lib/python3.7/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2228.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Model Summary: 369 layers, 20871318 parameters, 20871318 gradients, 48.0 GFLOPs
+Transferred 475/482 items from yolov5m.pt
+Scaled weight_decay = 0.0005
+[34m[1moptimizer:[39m[22m SGD with parameter groups 79 weight, 82 weight (no decay), 82 bias
+[34m[1mtrain: [39m[22mScanning 'Dataset/dataset-vehicles/labels/train' images and labels...208 found, 0 missing, 0 empty, 0 co
+[34m[1mtrain: [39m[22mNew cache created: Dataset/dataset-vehicles/labels/train.cache
+[34m[1mval: [39m[22mScanning 'Dataset/dataset-vehicles/labels/val' images and labels...32 found, 0 missing, 0 empty, 0 corrupt
+[34m[1mval: [39m[22mNew cache created: Dataset/dataset-vehicles/labels/val.cache
+Image sizes 640 train, 640 val
+Using 2 dataloader workers
+Logging results to [1mruns/train/exp19
+Starting training for 50 epochs...
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+  0%|                                                                                   | 0/13 [00:00<?, ?it/s]/opt/conda/lib/python3.7/site-packages/torch/autocast_mode.py:162: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn('User provided device_type of \'cuda\', but CUDA is not available. Disabling')
+      0/49        0G     0.122   0.04242         0       102       640:   8%|▏  | 1/13 [00:39<07:55, 39.63s/it]/opt/conda/lib/python3.7/site-packages/torch/autocast_mode.py:162: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn('User provided device_type of \'cuda\', but CUDA is not available. Disabling')
+      0/49        0G     0.122   0.04242         0       102       640:   8%|▏  | 1/13 [01:12<14:35, 72.94s/it]
+Traceback (most recent call last):
+  File "train.py", line 611, in <module>
+    main(opt)
+  File "train.py", line 509, in main
+    train(opt.hyp, opt, device)
+  File "train.py", line 319, in train
+    scaler.scale(loss).backward()
+  File "/opt/conda/lib/python3.7/site-packages/torch/_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/opt/conda/lib/python3.7/site-packages/torch/autograd/__init__.py", line 175, in backward
+    allow_unreachable=True, accumulate_grad=True)  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

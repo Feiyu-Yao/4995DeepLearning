@@ -1,0 +1,844 @@
+Plotting labels...
+[34m[1mautoanchor: [39m[22mAnalyzing anchors... anchors/target = 5.53, Best Possible Recall (BPR) = 1.0000
+                 all         32        145    0.00737     0.0207     0.0011   0.000238
+                 all         32        145    0.00653     0.0414    0.00269   0.000614
+                 all         32        145    0.00631      0.103    0.00293   0.000674
+                 all         32        145    0.00574      0.138    0.00283   0.000681
+                 all         32        145    0.00624      0.124    0.00296   0.000634
+                 all         32        145    0.00612      0.117    0.00304   0.000684
+                 all         32        145    0.00529     0.0759    0.00331   0.000731
+                 all         32        145      0.006      0.103    0.00378   0.000909
+                 all         32        145    0.00594      0.379     0.0043    0.00102
+                 all         32        145    0.00825      0.234    0.00577    0.00136
+                 all         32        145     0.0102       0.31    0.00841      0.002
+                 all         32        145     0.0142      0.497     0.0122    0.00302
+                 all         32        145     0.0292        0.4      0.025    0.00627
+                 all         32        145      0.123      0.269     0.0898     0.0262
+                 all         32        145       0.27      0.414      0.246     0.0732
+                 all         32        145      0.452      0.552      0.465      0.153
+                 all         32        145       0.68      0.614      0.646      0.238
+                 all         32        145      0.782        0.6      0.707      0.291
+                 all         32        145      0.726      0.675      0.708      0.243
+                 all         32        145      0.648      0.661      0.673      0.272
+                 all         32        145      0.779      0.683      0.764       0.34
+                 all         32        145      0.792      0.738      0.807      0.362
+                 all         32        145      0.873      0.779      0.835      0.369
+                 all         32        145      0.819      0.717      0.803      0.359
+                 all         32        145      0.673      0.723      0.716      0.266
+                 all         32        145      0.619      0.697      0.651      0.232
+                 all         32        145      0.704      0.655       0.71      0.277
+                 all         32        145      0.821      0.855      0.842      0.382
+                 all         32        145      0.705      0.793      0.778      0.318
+                 all         32        145      0.519      0.721      0.599      0.192
+                 all         32        145       0.64      0.786       0.72      0.378
+                 all         32        145      0.657      0.765      0.775      0.389
+                 all         32        145      0.769      0.828      0.828      0.435
+                 all         32        145      0.854      0.807      0.878      0.504
+                 all         32        145      0.862      0.821      0.865      0.446
+                 all         32        145      0.891      0.848       0.88      0.485
+                 all         32        145      0.809      0.897      0.881      0.434
+                 all         32        145      0.903      0.903      0.909      0.539
+                 all         32        145      0.949      0.903      0.924      0.544
+                 all         32        145      0.942      0.889      0.929      0.561
+                 all         32        145      0.926      0.876      0.918      0.512
+                 all         32        145      0.891      0.903      0.926      0.563
+                 all         32        145      0.767      0.821      0.821      0.296
+                 all         32        145       0.95      0.924      0.946      0.613
+                 all         32        145      0.878      0.897      0.926      0.499
+                 all         32        145      0.931      0.931      0.947       0.63
+                 all         32        145      0.956      0.917      0.946      0.641
+                 all         32        145      0.957      0.924      0.951      0.619
+                 all         32        145      0.964      0.924      0.954      0.631
+                 all         32        145      0.768      0.889      0.904      0.549
+                 all         32        145      0.917      0.917      0.947      0.639
+                 all         32        145      0.963      0.917      0.959      0.672
+                 all         32        145      0.944      0.931      0.951      0.629
+                 all         32        145      0.944      0.931      0.944      0.557
+                 all         32        145      0.977      0.896      0.952      0.571
+                 all         32        145      0.931      0.923      0.953      0.572
+                 all         32        145      0.937      0.931      0.948      0.664
+                 all         32        145      0.985      0.931      0.966      0.707
+                 all         32        145      0.951      0.938      0.964      0.715
+                 all         32        145      0.953      0.862      0.937      0.698
+                 all         32        145      0.964      0.924      0.964        0.7
+                 all         32        145      0.964      0.931       0.96      0.655
+                 all         32        145      0.958      0.938      0.965      0.696
+                 all         32        145      0.964      0.931      0.967       0.71
+                 all         32        145      0.958      0.938      0.967      0.732
+                 all         32        145      0.964      0.931      0.962      0.723
+                 all         32        145      0.956       0.91      0.963      0.731
+                 all         32        145      0.958      0.945      0.967      0.702
+                 all         32        145       0.97      0.917      0.965      0.696
+                 all         32        145      0.978      0.931      0.965      0.639
+                 all         32        145      0.971      0.938      0.968      0.749
+                 all         32        145      0.728      0.758      0.827      0.315
+                 all         32        145       0.81       0.91      0.845      0.446
+                 all         32        145      0.944      0.931      0.961      0.647
+                 all         32        145      0.864      0.917       0.93      0.603
+                 all         32        145      0.775      0.785      0.842      0.552
+                 all         32        145       0.97      0.903      0.957       0.54
+                 all         32        145      0.946      0.855      0.949      0.621
+                 all         32        145      0.963      0.917      0.963        0.7
+                 all         32        145      0.811      0.917      0.901      0.534
+                 all         32        145      0.899      0.924      0.946      0.628
+                 all         32        145      0.864      0.924      0.926      0.685
+                 all         32        145      0.884      0.897      0.942      0.678
+                 all         32        145      0.922      0.841      0.943      0.591
+                 all         32        145      0.978      0.938      0.968      0.658
+                 all         32        145      0.937      0.917       0.96      0.692
+                 all         32        145      0.964      0.931      0.967      0.682
+                 all         32        145      0.971      0.938      0.967      0.623
+                 all         32        145      0.985      0.931      0.968      0.684
+                 all         32        145      0.986      0.938      0.969      0.726
+                 all         32        145      0.978      0.917      0.975      0.648
+                 all         32        145      0.945      0.945      0.959      0.687
+                 all         32        145      0.958      0.945      0.971      0.745
+                 all         32        145      0.972      0.945      0.977      0.751
+                 all         32        145      0.985      0.938       0.97       0.75
+                 all         32        145      0.972      0.945       0.97      0.738
+                 all         32        145      0.979      0.945      0.978      0.718
+                 all         32        145      0.986      0.938      0.977      0.763
+                 all         32        145      0.986      0.938      0.967      0.702
+                 all         32        145      0.979      0.945      0.971      0.752
+                 all         32        145      0.965      0.945      0.971       0.74
+                 all         32        145      0.972      0.945      0.972      0.732
+                 all         32        145      0.965      0.938      0.968      0.702
+                 all         32        145      0.979      0.945      0.971      0.717
+                 all         32        145      0.978      0.938       0.97      0.717
+                 all         32        145      0.979      0.945      0.971      0.733
+                 all         32        145      0.986      0.945       0.97      0.757
+                 all         32        145      0.986      0.945      0.969      0.774
+                 all         32        145      0.986      0.945      0.971      0.743
+                 all         32        145      0.979      0.945      0.972      0.786
+                 all         32        145      0.978      0.938       0.97      0.752
+                 all         32        145      0.972      0.945      0.972      0.788
+                 all         32        145      0.986      0.945      0.969      0.769
+                 all         32        145      0.986      0.945       0.97      0.787
+                 all         32        145      0.979      0.945      0.978       0.77
+                 all         32        145      0.979      0.945      0.977      0.777
+                 all         32        145      0.979      0.945      0.977      0.792
+                 all         32        145      0.978      0.938      0.977      0.794
+                 all         32        145      0.979      0.945      0.977      0.741
+                 all         32        145      0.979      0.945      0.975      0.783
+                 all         32        145      0.979      0.945      0.976      0.733
+                 all         32        145      0.985      0.938      0.973      0.777
+                 all         32        145      0.978      0.938      0.973      0.772
+                 all         32        145      0.965      0.945      0.974      0.789
+                 all         32        145      0.959      0.959      0.977      0.781
+                 all         32        145      0.985      0.924      0.971      0.789
+                 all         32        145      0.946      0.959      0.972      0.752
+                 all         32        145      0.979      0.945      0.976      0.795
+                 all         32        145      0.979      0.945      0.973      0.773
+                 all         32        145      0.978      0.945      0.976      0.785
+                 all         32        145      0.958      0.959      0.975      0.737
+                 all         32        145      0.952      0.965      0.971      0.786
+                 all         32        145      0.985      0.931       0.97      0.753
+                 all         32        145      0.978      0.938      0.968      0.807
+                 all         32        145      0.978      0.938      0.969      0.802
+                 all         32        145      0.986      0.938      0.971      0.799
+                 all         32        145      0.985      0.938      0.968      0.799
+                 all         32        145      0.985      0.938      0.973      0.811
+                 all         32        145      0.986      0.938      0.972      0.794
+                 all         32        145      0.985      0.938      0.977      0.805
+                 all         32        145      0.985      0.938      0.977      0.797
+                 all         32        145      0.985      0.938      0.977      0.815
+                 all         32        145      0.985      0.931      0.976      0.795
+                 all         32        145      0.985      0.931      0.977       0.78
+                 all         32        145      0.946      0.965      0.977      0.795
+                 all         32        145      0.986      0.944      0.978      0.811
+                 all         32        145      0.985      0.931      0.976      0.782
+                 all         32        145      0.965      0.959      0.978      0.798
+                 all         32        145      0.985      0.931      0.978      0.791
+                 all         32        145      0.979      0.945      0.977      0.804
+                 all         32        145      0.965      0.945      0.976      0.807
+                 all         32        145      0.965      0.952      0.973      0.804
+                 all         32        145      0.979      0.945      0.972      0.787
+                 all         32        145      0.965      0.945      0.972      0.796
+                 all         32        145      0.958      0.945      0.971      0.777
+                 all         32        145      0.965      0.945      0.977       0.81
+                 all         32        145      0.972      0.959      0.978      0.821
+                 all         32        145      0.972      0.952      0.979      0.829
+                 all         32        145      0.972      0.952      0.979      0.813
+                 all         32        145      0.965      0.959      0.981      0.827
+                 all         32        145      0.972      0.952       0.98      0.812
+                 all         32        145      0.959      0.959       0.98      0.827
+                 all         32        145      0.986      0.945      0.979      0.822
+                 all         32        145      0.978      0.945      0.979      0.818
+                 all         32        145      0.979      0.952      0.979      0.823
+                 all         32        145      0.979      0.952      0.978      0.827
+                 all         32        145      0.972      0.952      0.977      0.819
+                 all         32        145      0.972      0.952      0.977      0.824
+                 all         32        145      0.972      0.945      0.979      0.819
+                 all         32        145      0.986      0.945      0.981      0.838
+                 all         32        145      0.986      0.945      0.979      0.817
+                 all         32        145      0.965      0.952      0.979       0.84
+                 all         32        145      0.978      0.945      0.978       0.82
+                 all         32        145      0.979      0.945      0.979      0.833
+                 all         32        145      0.979      0.945       0.98      0.827
+                 all         32        145      0.972      0.952       0.98      0.841
+                 all         32        145      0.972      0.952      0.979       0.83
+                 all         32        145      0.972      0.952      0.979      0.838
+                 all         32        145      0.965      0.959      0.981      0.836
+                 all         32        145      0.965      0.958      0.984      0.839
+                 all         32        145      0.965      0.952      0.983      0.832
+                 all         32        145      0.972      0.945      0.983      0.834
+                 all         32        145      0.959      0.959       0.98      0.829
+                 all         32        145      0.965      0.959      0.976      0.836
+                 all         32        145      0.959      0.966      0.975      0.824
+                 all         32        145      0.959      0.966      0.978      0.824
+                 all         32        145      0.952      0.965      0.978      0.828
+                 all         32        145      0.959      0.959      0.981      0.831
+                 all         32        145      0.959      0.959      0.981      0.843
+                 all         32        145      0.972      0.945      0.984      0.846
+                 all         32        145      0.972      0.945      0.983       0.84
+                 all         32        145      0.972      0.945      0.983      0.853
+                 all         32        145      0.965      0.952      0.981      0.841
+                 all         32        145      0.972      0.952      0.982      0.847
+                 all         32        145      0.979      0.945      0.982      0.844
+                 all         32        145      0.972      0.945      0.985      0.841
+                 all         32        145      0.972      0.945      0.986      0.837
+                 all         32        145      0.958      0.952      0.986      0.849
+                 all         32        145      0.965      0.952      0.986      0.848
+                 all         32        145      0.965      0.952      0.986      0.847
+Optimizer stripped from runs/train/exp30/weights/last.pt, 42.4MB
+Optimizer stripped from runs/train/exp30/weights/best.pt, 42.4MB
+Overriding model.yaml nc=5 with nc=1
+                 from  n    params  module                                  arguments
+  0                -1  1      5280  models.common.Focus                     [3, 48, 3]
+  1                -1  1     41664  models.common.Conv                      [48, 96, 3, 2]
+  2                -1  2     65280  models.common.C3                        [96, 96, 2]
+  3                -1  1    166272  models.common.Conv                      [96, 192, 3, 2]
+  4                -1  6    629760  models.common.C3                        [192, 192, 6]
+  5                -1  1    664320  models.common.Conv                      [192, 384, 3, 2]
+  6                -1  6   2512896  models.common.C3                        [384, 384, 6]
+  7                -1  1   2655744  models.common.Conv                      [384, 768, 3, 2]
+  8                -1  1   1476864  models.common.SPP                       [768, 768, [5, 9, 13]]
+  9                -1  2   4134912  models.common.C3                        [768, 768, 2, False]
+ 10                -1  1    295680  models.common.Conv                      [768, 384, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  2   1182720  models.common.C3                        [768, 384, 2, False]
+ 14                -1  1     74112  models.common.Conv                      [384, 192, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  2    296448  models.common.C3                        [384, 192, 2, False]
+ 18                -1  1    332160  models.common.Conv                      [192, 192, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  2   1035264  models.common.C3                        [384, 384, 2, False]
+ 21                -1  1   1327872  models.common.Conv                      [384, 384, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  2   4134912  models.common.C3                        [768, 768, 2, False]
+ 24      [17, 20, 23]  1     24246  models.yolo.Detect                      [1, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [192, 384, 768]]
+/opt/conda/lib/python3.7/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Model Summary: 391 layers, 21056406 parameters, 21056406 gradients, 50.4 GFLOPs
+Transferred 500/506 items from runs/train/exp12/weights/best.pt
+Scaled weight_decay = 0.0005
+[34m[1moptimizer:[39m[22m SGD with parameter groups 83 weight, 86 weight (no decay), 86 bias
+[34m[1mtrain: [39m[22mScanning 'Dataset/dataset-vehicles/labels/train.cache' images and labels... 208 found, 0 missing, 0 empt
+[34m[1mval: [39m[22mScanning 'Dataset/dataset-vehicles/labels/val.cache' images and labels... 32 found, 0 missing, 0 empty, 0
+Image sizes 640 train, 640 val
+Using 2 dataloader workers
+Logging results to [1mruns/train/exp30
+Starting training for 200 epochs...
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     0/199     11.7G     0.112   0.05772         0        93       640: 100%|████| 7/7 [00:13<00:00,  1.98s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     1/199     11.7G    0.1062   0.06242         0       100       640: 100%|████| 7/7 [00:12<00:00,  1.81s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     2/199     11.7G     0.103   0.06403         0       158       640: 100%|████| 7/7 [00:11<00:00,  1.60s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     3/199     11.7G    0.1016   0.06654         0        97       640: 100%|████| 7/7 [00:11<00:00,  1.65s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     4/199     11.7G    0.1001   0.06542         0       110       640: 100%|████| 7/7 [00:13<00:00,  1.88s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     5/199     11.7G   0.09995   0.06955         0       141       640: 100%|████| 7/7 [00:12<00:00,  1.80s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     6/199     11.7G   0.09864   0.06677         0       102       640: 100%|████| 7/7 [00:11<00:00,  1.64s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     7/199     11.7G   0.09857   0.06671         0       109       640: 100%|████| 7/7 [00:11<00:00,  1.66s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     8/199     11.7G   0.09603    0.0662         0       132       640: 100%|████| 7/7 [00:12<00:00,  1.72s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     9/199     11.7G   0.09509   0.06415         0        89       640: 100%|████| 7/7 [00:10<00:00,  1.51s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    10/199     11.7G   0.09251   0.06859         0        97       640: 100%|████| 7/7 [00:12<00:00,  1.74s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    11/199     11.7G   0.08983   0.07052         0        94       640: 100%|████| 7/7 [00:11<00:00,  1.60s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    12/199     11.7G   0.08838   0.07166         0       136       640: 100%|████| 7/7 [00:12<00:00,  1.73s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    13/199     11.7G   0.08168   0.06723         0        87       640: 100%|████| 7/7 [00:11<00:00,  1.59s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    14/199     11.7G    0.0774   0.07301         0       109       640: 100%|████| 7/7 [00:12<00:00,  1.83s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    15/199     11.7G   0.07134   0.07561         0       115       640: 100%|████| 7/7 [00:10<00:00,  1.52s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    16/199     11.7G   0.06769   0.06949         0        89       640: 100%|████| 7/7 [00:11<00:00,  1.68s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    17/199     11.7G   0.06542   0.06817         0       130       640: 100%|████| 7/7 [00:10<00:00,  1.50s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    18/199     11.7G    0.0611   0.05393         0       101       640: 100%|████| 7/7 [00:12<00:00,  1.78s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    19/199     11.7G   0.06339   0.05038         0       105       640: 100%|████| 7/7 [00:11<00:00,  1.68s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:04<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    20/199     11.7G    0.0606   0.04683         0       150       640: 100%|████| 7/7 [00:10<00:00,  1.53s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    21/199     11.7G   0.05879   0.04722         0       144       640: 100%|████| 7/7 [00:12<00:00,  1.79s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    22/199     11.7G   0.05769   0.04376         0       109       640: 100%|████| 7/7 [00:11<00:00,  1.69s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    23/199     11.7G    0.0565   0.04232         0       120       640: 100%|████| 7/7 [00:11<00:00,  1.65s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    24/199     11.7G   0.05326   0.04044         0       126       640: 100%|████| 7/7 [00:13<00:00,  1.88s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    25/199     11.7G   0.05227   0.03796         0        96       640: 100%|████| 7/7 [00:13<00:00,  1.99s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    26/199     11.7G   0.05325   0.03747         0       124       640: 100%|████| 7/7 [00:13<00:00,  1.86s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    27/199     11.7G   0.05446   0.03573         0       111       640: 100%|████| 7/7 [00:12<00:00,  1.77s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    28/199     11.7G   0.05314   0.03419         0       100       640: 100%|████| 7/7 [00:11<00:00,  1.66s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    29/199     11.7G   0.05447   0.03464         0        98       640: 100%|████| 7/7 [00:12<00:00,  1.81s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    30/199     11.7G   0.05129   0.03371         0       121       640: 100%|████| 7/7 [00:13<00:00,  1.88s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    31/199     11.7G   0.05053   0.03386         0       110       640: 100%|████| 7/7 [00:12<00:00,  1.80s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    32/199     11.7G   0.04783   0.03152         0       102       640: 100%|████| 7/7 [00:13<00:00,  1.99s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    33/199     11.7G    0.0456   0.03018         0        90       640: 100%|████| 7/7 [00:11<00:00,  1.64s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    34/199     11.7G     0.046   0.03056         0       115       640: 100%|████| 7/7 [00:11<00:00,  1.60s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    35/199     11.7G   0.04583   0.03263         0       154       640: 100%|████| 7/7 [00:12<00:00,  1.84s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    36/199     11.7G   0.04562   0.02936         0       118       640: 100%|████| 7/7 [00:13<00:00,  1.98s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    37/199     11.7G   0.04292   0.02948         0       114       640: 100%|████| 7/7 [00:12<00:00,  1.78s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    38/199     11.7G   0.04283   0.02836         0       108       640: 100%|████| 7/7 [00:11<00:00,  1.62s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    39/199     11.7G   0.04242   0.02863         0       137       640: 100%|████| 7/7 [00:10<00:00,  1.54s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:04<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    40/199     11.7G    0.0438   0.02699         0       105       640: 100%|████| 7/7 [00:09<00:00,  1.35s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    41/199     11.7G   0.04459   0.02898         0       122       640: 100%|████| 7/7 [00:12<00:00,  1.75s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    42/199     11.7G   0.04278   0.02746         0       119       640: 100%|████| 7/7 [00:11<00:00,  1.70s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    43/199     11.7G   0.04233   0.02612         0        99       640: 100%|████| 7/7 [00:13<00:00,  1.86s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    44/199     11.7G   0.03824   0.02773         0       121       640: 100%|████| 7/7 [00:11<00:00,  1.65s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    45/199     11.7G   0.03832   0.02636         0       116       640: 100%|████| 7/7 [00:12<00:00,  1.79s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    46/199     11.7G   0.03849   0.02528         0       109       640: 100%|████| 7/7 [00:11<00:00,  1.64s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    47/199     11.7G   0.03692   0.02593         0       133       640: 100%|████| 7/7 [00:12<00:00,  1.83s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    48/199     11.7G   0.03906   0.02528         0       130       640: 100%|████| 7/7 [00:12<00:00,  1.75s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    49/199     11.7G   0.03686   0.02399         0       115       640: 100%|████| 7/7 [00:13<00:00,  1.90s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    50/199     11.7G   0.03716   0.02484         0       138       640: 100%|████| 7/7 [00:12<00:00,  1.80s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    51/199     11.7G   0.03681   0.02506         0       142       640: 100%|████| 7/7 [00:13<00:00,  1.97s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    52/199     11.7G   0.03456   0.02314         0        90       640: 100%|████| 7/7 [00:10<00:00,  1.53s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    53/199     11.7G   0.03574   0.02392         0       118       640: 100%|████| 7/7 [00:13<00:00,  1.93s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    54/199     11.7G   0.03441   0.02488         0       134       640: 100%|████| 7/7 [00:11<00:00,  1.71s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    55/199     11.7G   0.03523   0.02364         0       104       640: 100%|████| 7/7 [00:13<00:00,  2.00s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    56/199     11.7G    0.0339   0.02261         0       127       640: 100%|████| 7/7 [00:12<00:00,  1.78s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    57/199     11.7G   0.03384    0.0234         0       142       640: 100%|████| 7/7 [00:13<00:00,  1.89s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    58/199     11.7G   0.03168   0.02259         0       109       640: 100%|████| 7/7 [00:11<00:00,  1.70s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    59/199     11.7G    0.0345   0.02251         0       128       640: 100%|████| 7/7 [00:11<00:00,  1.66s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:03<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    60/199     11.7G   0.03249   0.02177         0       124       640: 100%|████| 7/7 [00:10<00:00,  1.45s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    61/199     11.7G   0.03162   0.02234         0       139       640: 100%|████| 7/7 [00:13<00:00,  1.90s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    62/199     11.7G   0.03145   0.02297         0       130       640: 100%|████| 7/7 [00:13<00:00,  1.92s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    63/199     11.7G    0.0321   0.02308         0       117       640: 100%|████| 7/7 [00:13<00:00,  1.87s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    64/199     11.7G   0.03043   0.02164         0       128       640: 100%|████| 7/7 [00:12<00:00,  1.82s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    65/199     11.7G   0.02938   0.02102         0       127       640: 100%|████| 7/7 [00:11<00:00,  1.60s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    66/199     11.7G    0.0314   0.02154         0       111       640: 100%|████| 7/7 [00:14<00:00,  2.02s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    67/199     11.7G   0.03152   0.02107         0       117       640: 100%|████| 7/7 [00:12<00:00,  1.80s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    68/199     11.7G   0.02943   0.02015         0       103       640: 100%|████| 7/7 [00:12<00:00,  1.78s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    69/199     11.7G   0.03085   0.02129         0       109       640: 100%|████| 7/7 [00:13<00:00,  1.90s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    70/199     11.7G   0.02913    0.0202         0       112       640: 100%|████| 7/7 [00:13<00:00,  1.91s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    71/199     11.7G   0.04147   0.02316         0       119       640: 100%|████| 7/7 [00:11<00:00,  1.66s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    72/199     11.7G   0.04446   0.02608         0       130       640: 100%|████| 7/7 [00:12<00:00,  1.82s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    73/199     11.7G   0.04051   0.02274         0       139       640: 100%|████| 7/7 [00:13<00:00,  1.94s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    74/199     11.7G   0.03929   0.02315         0       157       640: 100%|████| 7/7 [00:12<00:00,  1.84s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    75/199     11.7G   0.04092    0.0219         0       115       640: 100%|████| 7/7 [00:12<00:00,  1.82s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    76/199     11.7G   0.03922   0.02259         0       110       640: 100%|████| 7/7 [00:13<00:00,  1.86s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    77/199     11.7G   0.03649   0.02288         0       156       640: 100%|████| 7/7 [00:13<00:00,  1.95s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    78/199     11.7G   0.03691   0.02225         0       116       640: 100%|████| 7/7 [00:13<00:00,  1.87s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    79/199     11.7G   0.03932   0.02167         0       129       640: 100%|████| 7/7 [00:12<00:00,  1.74s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:03<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    80/199     11.7G   0.03831   0.02145         0       134       640: 100%|████| 7/7 [00:11<00:00,  1.59s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    81/199     11.7G   0.03733   0.02196         0       127       640: 100%|████| 7/7 [00:13<00:00,  1.99s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    82/199     11.7G   0.03689   0.02331         0       118       640: 100%|████| 7/7 [00:13<00:00,  1.89s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    83/199     11.7G   0.03761   0.02186         0       153       640: 100%|████| 7/7 [00:12<00:00,  1.81s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    84/199     11.7G   0.03838    0.0198         0        96       640: 100%|████| 7/7 [00:13<00:00,  1.89s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    85/199     11.7G   0.03539   0.01975         0        90       640: 100%|████| 7/7 [00:11<00:00,  1.70s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    86/199     11.7G   0.03561   0.02073         0        92       640: 100%|████| 7/7 [00:13<00:00,  1.90s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    87/199     11.7G   0.03107   0.02079         0       132       640: 100%|████| 7/7 [00:12<00:00,  1.80s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    88/199     11.7G    0.0345   0.02077         0       116       640: 100%|████| 7/7 [00:14<00:00,  2.03s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    89/199     11.7G   0.03322   0.01995         0       137       640: 100%|████| 7/7 [00:12<00:00,  1.77s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    90/199     11.7G   0.03098   0.02074         0       116       640: 100%|████| 7/7 [00:13<00:00,  1.87s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    91/199     11.7G   0.03289   0.02166         0       132       640: 100%|████| 7/7 [00:12<00:00,  1.77s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    92/199     11.7G   0.03219   0.02088         0       121       640: 100%|████| 7/7 [00:14<00:00,  2.04s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    93/199     11.7G   0.03226   0.02011         0       129       640: 100%|████| 7/7 [00:12<00:00,  1.78s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    94/199     11.7G   0.03033   0.02081         0       146       640: 100%|████| 7/7 [00:11<00:00,  1.71s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    95/199     11.7G   0.03091   0.01964         0        97       640: 100%|████| 7/7 [00:12<00:00,  1.79s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    96/199     11.7G   0.03115   0.02073         0       125       640: 100%|████| 7/7 [00:13<00:00,  1.92s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    97/199     11.7G   0.02814   0.02007         0       115       640: 100%|████| 7/7 [00:12<00:00,  1.75s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    98/199     11.7G   0.02821   0.01964         0       111       640: 100%|████| 7/7 [00:11<00:00,  1.67s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+    99/199     11.7G   0.03041   0.01927         0       122       640: 100%|████| 7/7 [00:12<00:00,  1.75s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:04<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   100/199     11.7G    0.0288   0.01966         0       131       640: 100%|████| 7/7 [00:11<00:00,  1.57s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   101/199     11.7G   0.02783   0.01914         0       114       640: 100%|████| 7/7 [00:12<00:00,  1.81s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   102/199     11.7G   0.02862   0.01843         0       119       640: 100%|████| 7/7 [00:13<00:00,  1.88s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   103/199     11.7G   0.02845   0.01882         0       109       640: 100%|████| 7/7 [00:13<00:00,  1.94s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   104/199     11.7G   0.02982   0.01951         0       102       640: 100%|████| 7/7 [00:12<00:00,  1.83s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   105/199     11.7G   0.02962   0.02099         0       104       640: 100%|████| 7/7 [00:12<00:00,  1.79s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   106/199     11.7G   0.02622   0.01889         0       139       640: 100%|████| 7/7 [00:12<00:00,  1.82s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   107/199     11.7G   0.02648   0.01983         0       100       640: 100%|████| 7/7 [00:13<00:00,  1.99s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   108/199     11.7G   0.02716   0.01805         0       131       640: 100%|████| 7/7 [00:11<00:00,  1.64s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   109/199     11.7G   0.02282   0.01765         0       110       640: 100%|████| 7/7 [00:13<00:00,  1.94s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   110/199     11.7G   0.02922   0.01831         0       108       640: 100%|████| 7/7 [00:10<00:00,  1.54s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   111/199     11.7G   0.02615   0.01794         0       117       640: 100%|████| 7/7 [00:13<00:00,  1.95s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   112/199     11.7G   0.02642   0.01878         0       117       640: 100%|████| 7/7 [00:10<00:00,  1.53s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   113/199     11.7G   0.02411   0.01899         0       146       640: 100%|████| 7/7 [00:13<00:00,  1.90s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   114/199     11.7G   0.02496   0.01774         0       122       640: 100%|████| 7/7 [00:12<00:00,  1.73s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   115/199     11.7G   0.02268     0.018         0       115       640: 100%|████| 7/7 [00:14<00:00,  2.03s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   116/199     11.7G   0.02425   0.01906         0       116       640: 100%|████| 7/7 [00:12<00:00,  1.75s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   117/199     11.7G    0.0258   0.01812         0       111       640: 100%|████| 7/7 [00:11<00:00,  1.69s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   118/199     11.7G   0.02456   0.01869         0       166       640: 100%|████| 7/7 [00:12<00:00,  1.71s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   119/199     11.7G   0.02235   0.01817         0       130       640: 100%|████| 7/7 [00:13<00:00,  1.88s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:03<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   120/199     11.7G   0.02317   0.01734         0       131       640: 100%|████| 7/7 [00:10<00:00,  1.51s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   121/199     11.7G   0.02307   0.01791         0       133       640: 100%|████| 7/7 [00:13<00:00,  1.91s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   122/199     11.7G   0.02264    0.0173         0       159       640: 100%|████| 7/7 [00:13<00:00,  1.94s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   123/199     11.7G   0.02304   0.01918         0       136       640: 100%|████| 7/7 [00:13<00:00,  1.89s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   124/199     11.7G   0.02354   0.01679         0       116       640: 100%|████| 7/7 [00:12<00:00,  1.77s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   125/199     11.7G   0.02249   0.01687         0       129       640: 100%|████| 7/7 [00:13<00:00,  1.87s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   126/199     11.7G   0.02745   0.01815         0       109       640: 100%|████| 7/7 [00:13<00:00,  1.93s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   127/199     11.7G   0.02437   0.01738         0       107       640: 100%|████| 7/7 [00:12<00:00,  1.85s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   128/199     11.7G    0.0227   0.01894         0       150       640: 100%|████| 7/7 [00:11<00:00,  1.65s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   129/199     11.7G   0.02367   0.01707         0        96       640: 100%|████| 7/7 [00:13<00:00,  1.90s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   130/199     11.7G   0.02311   0.01762         0       112       640: 100%|████| 7/7 [00:12<00:00,  1.78s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   131/199     11.7G   0.02403   0.01745         0        92       640: 100%|████| 7/7 [00:12<00:00,  1.83s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   132/199     11.7G   0.01965   0.01557         0       126       640: 100%|████| 7/7 [00:12<00:00,  1.81s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   133/199     11.7G   0.01869   0.01609         0       115       640: 100%|████| 7/7 [00:14<00:00,  2.02s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   134/199     11.7G   0.02063   0.01655         0       128       640: 100%|████| 7/7 [00:10<00:00,  1.56s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   135/199     11.7G   0.01769   0.01634         0       116       640: 100%|████| 7/7 [00:13<00:00,  1.86s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   136/199     11.7G   0.01993    0.0148         0        93       640: 100%|████| 7/7 [00:12<00:00,  1.76s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   137/199     11.7G      0.02    0.0159         0       119       640: 100%|████| 7/7 [00:14<00:00,  2.03s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   138/199     11.7G    0.0187   0.01663         0       120       640: 100%|████| 7/7 [00:10<00:00,  1.55s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   139/199     11.7G   0.01749   0.01604         0       128       640: 100%|████| 7/7 [00:13<00:00,  1.91s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:03<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   140/199     11.7G   0.02033   0.01614         0       117       640: 100%|████| 7/7 [00:10<00:00,  1.53s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   141/199     11.7G   0.01733   0.01515         0        98       640: 100%|████| 7/7 [00:14<00:00,  2.02s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   142/199     11.7G   0.02034   0.01662         0       145       640: 100%|████| 7/7 [00:10<00:00,  1.50s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   143/199     11.7G   0.01853   0.01584         0       110       640: 100%|████| 7/7 [00:13<00:00,  1.91s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   144/199     11.7G   0.01958   0.01703         0       157       640: 100%|████| 7/7 [00:11<00:00,  1.70s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   145/199     11.7G   0.01733   0.01503         0       105       640: 100%|████| 7/7 [00:14<00:00,  2.09s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   146/199     11.7G    0.0185   0.01553         0       139       640: 100%|████| 7/7 [00:12<00:00,  1.80s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   147/199     11.7G   0.01984   0.01639         0        97       640: 100%|████| 7/7 [00:13<00:00,  1.89s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   148/199     11.7G   0.01839   0.01622         0       140       640: 100%|████| 7/7 [00:13<00:00,  1.93s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   149/199     11.7G   0.01578   0.01468         0       106       640: 100%|████| 7/7 [00:13<00:00,  1.90s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   150/199     11.7G   0.01659   0.01502         0       113       640: 100%|████| 7/7 [00:12<00:00,  1.82s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   151/199     11.7G    0.0162    0.0145         0       132       640: 100%|████| 7/7 [00:13<00:00,  1.88s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   152/199     11.7G   0.01669   0.01446         0       101       640: 100%|████| 7/7 [00:13<00:00,  1.90s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   153/199     11.7G   0.01717   0.01523         0       125       640: 100%|████| 7/7 [00:13<00:00,  1.89s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   154/199     11.7G   0.01769   0.01523         0       121       640: 100%|████| 7/7 [00:12<00:00,  1.80s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   155/199     11.7G   0.01494   0.01484         0        98       640: 100%|████| 7/7 [00:13<00:00,  1.92s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   156/199     11.7G   0.01605   0.01474         0       115       640: 100%|████| 7/7 [00:13<00:00,  1.88s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   157/199     11.7G   0.01724   0.01441         0        92       640: 100%|████| 7/7 [00:11<00:00,  1.68s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   158/199     11.7G   0.01465   0.01374         0       118       640: 100%|████| 7/7 [00:10<00:00,  1.45s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   159/199     11.7G    0.0142   0.01434         0       102       640: 100%|████| 7/7 [00:12<00:00,  1.84s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:04<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   160/199     11.7G   0.01763    0.0157         0       137       640: 100%|████| 7/7 [00:10<00:00,  1.44s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   161/199     11.7G   0.01597   0.01513         0       128       640: 100%|████| 7/7 [00:13<00:00,  1.90s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   162/199     11.7G   0.01535   0.01475         0       125       640: 100%|████| 7/7 [00:12<00:00,  1.76s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   163/199     11.7G   0.01377   0.01307         0       107       640: 100%|████| 7/7 [00:14<00:00,  2.02s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   164/199     11.7G   0.01589   0.01435         0       144       640: 100%|████| 7/7 [00:12<00:00,  1.72s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   165/199     11.7G   0.01567   0.01369         0        97       640: 100%|████| 7/7 [00:13<00:00,  1.91s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   166/199     11.7G    0.0155   0.01378         0       120       640: 100%|████| 7/7 [00:12<00:00,  1.80s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   167/199     11.7G   0.01384   0.01353         0       101       640: 100%|████| 7/7 [00:14<00:00,  2.03s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   168/199     11.7G   0.01416   0.01398         0       114       640: 100%|████| 7/7 [00:12<00:00,  1.76s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   169/199     11.7G   0.01269    0.0137         0       137       640: 100%|████| 7/7 [00:13<00:00,  1.93s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   170/199     11.7G   0.01544   0.01411         0       129       640: 100%|████| 7/7 [00:10<00:00,  1.52s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   171/199     11.7G   0.01419   0.01351         0       115       640: 100%|████| 7/7 [00:14<00:00,  2.10s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   172/199     11.7G    0.0153   0.01365         0       107       640: 100%|████| 7/7 [00:10<00:00,  1.52s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   173/199     11.7G   0.01354   0.01387         0       131       640: 100%|████| 7/7 [00:13<00:00,  1.89s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   174/199     11.7G   0.01289   0.01309         0       110       640: 100%|████| 7/7 [00:12<00:00,  1.74s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   175/199     11.7G   0.01246   0.01203         0       126       640: 100%|████| 7/7 [00:14<00:00,  2.02s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   176/199     11.7G   0.01351   0.01252         0        97       640: 100%|████| 7/7 [00:10<00:00,  1.54s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   177/199     11.7G   0.01304   0.01324         0       125       640: 100%|████| 7/7 [00:13<00:00,  1.89s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   178/199     11.7G   0.01408   0.01427         0       118       640: 100%|████| 7/7 [00:12<00:00,  1.79s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   179/199     11.7G   0.01258   0.01363         0       111       640: 100%|████| 7/7 [00:13<00:00,  1.94s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:03<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   180/199     11.7G    0.0129   0.01317         0        98       640: 100%|████| 7/7 [00:10<00:00,  1.51s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   181/199     11.7G   0.01364   0.01336         0       121       640: 100%|████| 7/7 [00:13<00:00,  1.95s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   182/199     11.7G   0.01321   0.01334         0       152       640: 100%|████| 7/7 [00:13<00:00,  1.96s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   183/199     11.7G   0.01227    0.0125         0       124       640: 100%|████| 7/7 [00:13<00:00,  1.89s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   184/199     11.7G   0.01347   0.01291         0       135       640: 100%|████| 7/7 [00:12<00:00,  1.78s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   185/199     11.7G   0.01307   0.01304         0       131       640: 100%|████| 7/7 [00:12<00:00,  1.85s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   186/199     11.7G   0.01317   0.01238         0       135       640: 100%|████| 7/7 [00:13<00:00,  1.88s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   187/199     11.7G    0.0124   0.01247         0       117       640: 100%|████| 7/7 [00:13<00:00,  1.92s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   188/199     11.7G   0.01294   0.01263         0       102       640: 100%|████| 7/7 [00:12<00:00,  1.83s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   189/199     11.7G   0.01114   0.01206         0       117       640: 100%|████| 7/7 [00:11<00:00,  1.70s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   190/199     11.7G   0.01117   0.01217         0       101       640: 100%|████| 7/7 [00:10<00:00,  1.51s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   191/199     11.7G   0.01171   0.01248         0       108       640: 100%|████| 7/7 [00:13<00:00,  1.92s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   192/199     11.7G   0.01196   0.01231         0       116       640: 100%|████| 7/7 [00:09<00:00,  1.40s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   193/199     11.7G   0.01178   0.01325         0       134       640: 100%|████| 7/7 [00:13<00:00,  1.97s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   194/199     11.7G   0.01352   0.01301         0       114       640: 100%|████| 7/7 [00:12<00:00,  1.78s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   195/199     11.7G   0.01123   0.01242         0       115       640: 100%|████| 7/7 [00:13<00:00,  1.93s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   196/199     11.7G   0.01274   0.01344         0       150       640: 100%|████| 7/7 [00:12<00:00,  1.78s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   197/199     11.7G   0.01228   0.01211         0       120       640: 100%|████| 7/7 [00:13<00:00,  1.98s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   198/199     11.7G   0.01265   0.01317         0       122       640: 100%|████| 7/7 [00:12<00:00,  1.74s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:00<00:0
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   199/199     11.7G   0.01168   0.01231         0       140       640: 100%|████| 7/7 [00:13<00:00,  1.90s/it]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 1/1 [00:03<00:0
+200 epochs completed in 0.896 hours.

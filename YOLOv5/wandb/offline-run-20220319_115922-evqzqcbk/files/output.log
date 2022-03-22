@@ -1,0 +1,105 @@
+                 from  n    params  module                                  arguments
+  0                -1  1      5280  models.common.Focus                     [3, 48, 3]
+  1                -1  1     41664  models.common.Conv                      [48, 96, 3, 2]
+  2                -1  2     65280  models.common.C3                        [96, 96, 2]
+  3                -1  1    166272  models.common.Conv                      [96, 192, 3, 2]
+  4                -1  6    629760  models.common.C3                        [192, 192, 6]
+  5                -1  1    664320  models.common.Conv                      [192, 384, 3, 2]
+  6                -1  6   2512896  models.common.C3                        [384, 384, 6]
+  7                -1  1   2655744  models.common.Conv                      [384, 768, 3, 2]
+  8                -1  1   1476864  models.common.SPP                       [768, 768, [5, 9, 13]]
+  9                -1  2   4134912  models.common.C3                        [768, 768, 2, False]
+ 10                -1  1    295680  models.common.Conv                      [768, 384, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  2   1182720  models.common.C3                        [768, 384, 2, False]
+ 14                -1  1     74112  models.common.Conv                      [384, 192, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  2    296448  models.common.C3                        [384, 192, 2, False]
+ 18                -1  1    332160  models.common.Conv                      [192, 192, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  2   1035264  models.common.C3                        [384, 384, 2, False]
+ 21                -1  1   1327872  models.common.Conv                      [384, 384, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  2   4134912  models.common.C3                        [768, 768, 2, False]
+ 24      [17, 20, 23]  1     24246  models.yolo.Detect                      [1, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [192, 384, 768]]
+/opt/conda/lib/python3.7/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Model Summary: 391 layers, 21056406 parameters, 21056406 gradients, 50.4 GFLOPs
+Transferred 506/506 items from runs/train/exp33/weights/best.pt
+Scaled weight_decay = 0.0005
+[34m[1moptimizer:[39m[22m SGD with parameter groups 83 weight, 86 weight (no decay), 86 bias
+[34m[1mtrain: [39m[22mScanning 'Dataset/dataset-vehicles/labels/train' images and labels...59 found, 0 missing, 0 empty, 59 co
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/007.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/029.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/049.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/095.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/097.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/122.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/145.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/163.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/165.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/177.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/178.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/186.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_020.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_021.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_023.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_024.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_025.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_026.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_027.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_028.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_029.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_031.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_030.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_032.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_033.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_035.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_034.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_036.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_037.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_038.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_039.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_040.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_041.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_042.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_044.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_043.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_045.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_046.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_047.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_048.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_049.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_050.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_051.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_052.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_053.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_054.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_055.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_056.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_057.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_058.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_059.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_060.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_061.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_062.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_063.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_064.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_065.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_066.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mWARNING: Ignoring corrupted image and/or label Dataset/dataset-vehicles/images/train/new_067.jpg: could not convert string to float: 'vehicle'
+[34m[1mtrain: [39m[22mNew cache created: Dataset/dataset-vehicles/labels/train.cache
+Traceback (most recent call last):
+  File "train.py", line 611, in <module>
+    main(opt)
+  File "train.py", line 509, in main
+    train(opt.hyp, opt, device)
+  File "train.py", line 209, in train
+    prefix=colorstr('train: '))
+  File "/home/fy2263/Vehicle-Detection/utils/datasets.py", line 107, in create_dataloader
+    prefix=prefix)
+  File "/home/fy2263/Vehicle-Detection/utils/datasets.py", line 422, in __init__
+    labels, shapes, self.segments = zip(*cache.values())
+ValueError: not enough values to unpack (expected 3, got 0)

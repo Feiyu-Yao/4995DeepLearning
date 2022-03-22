@@ -1,0 +1,20 @@
+2022-03-17 17:18:46,868 INFO    MainThread:31642 [internal.py:wandb_internal():95] W&B internal server running at pid: 31642, started at: 2022-03-17 17:18:46.868130
+2022-03-17 17:18:46,871 INFO    WriterThread:31642 [datastore.py:open_for_write():77] open: /home/fy2263/Vehicle-Detection/wandb/offline-run-20220317_171846-1bzogm7o/run-1bzogm7o.wandb
+2022-03-17 17:18:46,871 DEBUG   HandlerThread:31642 [handler.py:handle_request():141] handle_request: run_start
+2022-03-17 17:18:48,588 DEBUG   HandlerThread:31642 [meta.py:__init__():37] meta init
+2022-03-17 17:18:48,588 DEBUG   HandlerThread:31642 [meta.py:__init__():51] meta init done
+2022-03-17 17:18:48,588 DEBUG   HandlerThread:31642 [meta.py:probe():211] probe
+2022-03-17 17:18:48,601 DEBUG   HandlerThread:31642 [meta.py:_setup_git():201] setup git
+2022-03-17 17:18:48,619 DEBUG   HandlerThread:31642 [meta.py:_setup_git():208] setup git done
+2022-03-17 17:18:48,619 DEBUG   HandlerThread:31642 [meta.py:_save_pip():55] save pip
+2022-03-17 17:18:48,619 DEBUG   HandlerThread:31642 [meta.py:_save_pip():69] save pip done
+2022-03-17 17:18:48,620 DEBUG   HandlerThread:31642 [meta.py:_save_conda():76] save conda
+2022-03-17 17:19:04,038 DEBUG   HandlerThread:31642 [meta.py:_save_conda():86] save conda done
+2022-03-17 17:19:04,038 DEBUG   HandlerThread:31642 [meta.py:probe():249] probe done
+2022-03-17 17:20:09,940 WARNING MainThread:31642 [internal.py:wandb_internal():155] Internal process interrupt: 1
+2022-03-17 17:20:14,325 WARNING MainThread:31642 [internal.py:wandb_internal():155] Internal process interrupt: 2
+2022-03-17 17:20:14,325 ERROR   MainThread:31642 [internal.py:wandb_internal():158] Internal process interrupted.
+2022-03-17 17:20:14,744 INFO    WriterThread:31642 [datastore.py:close():281] close: /home/fy2263/Vehicle-Detection/wandb/offline-run-20220317_171846-1bzogm7o/run-1bzogm7o.wandb
+2022-03-17 17:20:14,772 INFO    HandlerThread:31642 [handler.py:finish():778] shutting down handler
+2022-03-17 17:20:14,886 INFO    SenderThread:31642 [sender.py:finish():1078] shutting down sender
+2022-03-17 17:20:14,891 INFO    MainThread:31642 [internal.py:handle_exit():82] Internal process exited
