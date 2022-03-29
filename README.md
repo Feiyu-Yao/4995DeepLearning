@@ -8,6 +8,13 @@
 
 Fine-tune: The pretrained model can be a good start point. Dehaze model shares the same low level feature. Freeze VGG layer for AECR-NET. Freeze no layers for YOLOv5.
 
+Dataset Used:
+
+AECR-NET: Dense-Haze, A2I2.
+YOLOv5: Vehicle Dataset( https://b2n.ir/vehicleDataset ), COCO, A2I2.
+
+
+
 ## Dependencies
 
 Basically this work is done in two virtual machines. Thus different dependencies is needed:
