@@ -1,11 +1,12 @@
 # 4995DeepLearning Competition Code
-Basically this work is done in two virtual machines. Thus different dependencies is needed:
 
-
-
-Technology:
+## Technology:
 
 <img src="/1648523447253.jpg" width="25%">   
+
+
+
+Basically this work is done in two virtual machines. Thus different dependencies is needed:
 
 
 
