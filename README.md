@@ -1,5 +1,14 @@
 # 4995DeepLearning Competition Code
 Basically this work is done in two virtual machines. Thus different dependencies is needed:
+
+
+
+Technology:
+
+<img src="/1646925537653.jpg" width="25%">   
+
+
+
 ## Dependencies 1
 * Python3.7
 * CUDA 10.2
