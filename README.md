@@ -5,7 +5,7 @@ Basically this work is done in two virtual machines. Thus different dependencies
 
 Technology:
 
-<img src="/1646925537653.jpg" width="25%">   
+<img src="/1648523447253.jpg" width="25%">   
 
 
 
