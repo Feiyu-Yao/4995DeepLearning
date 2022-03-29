@@ -4,6 +4,10 @@
 
 <img src="/1648523447253.jpg" width="25%">   
 
+
+
+Fine-tune: The pretrained model can be a good start point. Dehaze model shares the same low level feature. Freeze VGG layer for AECR-NET. Freeze no layers for YOLOv5.
+
 ## Dependencies
 
 Basically this work is done in two virtual machines. Thus different dependencies is needed:
